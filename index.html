@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spencer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fb42893085.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="Header">
+    <div class="container">
+        <nav>
+            <img src="Logo.png" class="Logo">
+            <ul id="sidemenu">
+                <li><a href="#Header">Home</a></li>
+                <li><a href="#About">About me</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+         <div class="header-text">
+        <p>Writer/3D artist</p>
+        <h1>Hi, I'm <span>Spencer</span><br>Screenwriter and<br>3D illustrator.</h1>
+        </div>
+    </div>
+</div>
+<!-- https://www.youtube.com/watch?v=0YFrGy_mzjY&ab_channel=GreatStack-->
+<!-------------About section------------------------------>
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="ME.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Screenwriter and 3D enviromental artists from South Africa with a passion for telling stories and bringing a vision to life</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Writer</span><br>Screenwriting</li>
+                        <li><span>3D artist</span><br>3D illustrations</li>
+                        <li><span>Web design</span><br>Novice web developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>2023 - 2023</span><br>Film festival manager for AFDA Capetown.</li>
+                        <li><span>2022 - 2023</span><br>Junior writer on multiple projects with Ochre Media Group, Johannesburg.</li>
+                        <li><span>2023 - 2023</span><br>Writer for Adrenaline studios, Capetown.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2003 - 2016</span><br>Primary and Highschool at St Johns college, Johannesburg.</li>
+                        <li><span>2017 - 2020</span><br>Ba film arts at Open Window, Centurion.</li>
+                        <li><span>2021 - 2021</span><br>Honors in Screenwriting at AFDA, Capetown.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Services section-->
+
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-paragraph"></i>
+                <h2>Screenwriting</h2>
+                <p>My first love is writing, particularly Sci-fi and fantasy.</p>
+                <a href="https://www.clippings.me/spencerbrady">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-object-group"></i>
+                <h2>3D illustrations</h2>
+                <p>A variety of 3D illustrations I have done and a display of some of my skillset.</p>
+                <a href="https://www.instagram.com/brady_ay/">Learn more</a>
+            </div>
+           <!-- <div>
+                <i class="fa-solid fa-pen-ruler"></i>
+                <h2>Design and Planning</h2>
+                <p>lemme make things nice for you uwu</p>
+                <a href="#">Learn more</a>
+            </div>  -->
+        </div>  
+    </div>
+</div>
+<!------Portfolio--------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Image 1.jpg">
+                <div class="layer">
+                    <h3>First Encounter</h3>
+                    <p>Enviromental work for a short animation</p>
+                    <a href="https://www.artstation.com/artwork/aY1eRX"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image 2.jpg">
+                <div class="layer">
+                    <h3>Camping trip</h3>
+                    <p>Stylized render</p>
+                    <a href="https://www.artstation.com/artwork/oAnnaL"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Image 3.jpg">
+                <div class="layer">
+                    <h3>Tick-Tock</h3>
+                    <p>Lighting and layout example</p>
+                    <a href="https://www.artstation.com/artwork/r9XWPa"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------Contact---------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="Contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-regular fa-envelope"></i>Bradyalex301@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0765481384</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/brady_ay/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.artstation.com/thegoddamndevil"></i><i class="fa-brands fa-artstation"></i></a>
+                    <a href="https://www.linkedin.com/in/alex-brady-a0b1a621a/"></i><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="CV Alexander.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="Contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Alexander Spencer Brady</p>
+    </div>
+</div>
+<!-- Scripts -->
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>  
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzRYcKaAulrP5ZiM2otwKW4VyZ9HP-r6GffUtKgVnZ-roP1ZjJizYlRFOtzQM4xCPSzeQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
